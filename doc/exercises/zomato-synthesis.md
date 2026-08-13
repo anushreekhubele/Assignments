@@ -3,7 +3,7 @@
 **Student Name:** Anushree Khubele
 **Batch:** Batch - Aug 26
 **Date Submitted:** 13 08 2026
-**GitHub file URL:** [Paste your GitHub file URL after committing]
+**GitHub file URL:** https://github.com/anushreekhubele/Assignments/blob/main/doc/exercises/zomato-synthesis.md
 
 ---
 
