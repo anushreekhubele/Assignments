@@ -127,7 +127,7 @@
 
 ### What interviews revealed that data couldn't
 
-1. According to Rohan, restaurants frequently receive poor ratings due to delivery delays rather than food quality issues. Restaurant ratings may be conflating two distinct problems when the delay is beyond the restaurant's control.
+1. According to Rohan, restaurants frequently receive poor ratings due to delivery delays rather than food quality issues. 
 2. Meera reveals the restaurant owners' side of order cancellations — it's a supply problem, not a lack of willingness — but her feedback isn't taken seriously.
 3. Karthik & Rohan's quotes show Zomato added Gold restrictions layer by layer, and both saw their savings drop as a result.
 
@@ -137,11 +137,11 @@
 
 ### Problem Statement 1
 
-**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato delivery-app users want their food to arrive within the promised time, but actual delivery runs 15+ minutes late for 117 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
+**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato delivery-app users want their food to arrive within the promised time, but actual delivery runs 15+ minutes late for 117 of 176 orders placed in that window** — evidenced by QuickBites order data ( 15+ minutes late for 117 of 176 orders ) AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute ( tracked by them ). This is also a recurring pattern. 
 
 ### Problem Statement 2
 
-**When a first delivery order goes wrong (late, cold, or mishandled), new customers want a reasonable shot at trusting the platform, but they receive only a token ₹50 credit (not a refund) and no follow-up outreach** — evidenced by QuickBites data showing that out of 50 signed-up customers, 4 never placed a single order before churning, and of the 4 customers who placed exactly one order, 2 never came back, AND 2/6 interviews (Anjali directly, Vikram via his cousin) describing one bad first delivery as the sole reason they permanently uninstalled.
+**When a first delivery order goes wrong (late or cold ), new customers want a reasonable shot at trusting the platform, but they receive only a token ₹50 credit (not a refund) and no follow-up outreach** — evidenced by QuickBites data showing that out of 50 signed-up customers, 4 never placed a single order before churning, and of the 4 customers who placed exactly one order, 2 never came back, AND 2/6 interviews (Anjali directly, Vikram via his cousin) describing one bad first delivery as the sole reason they permanently uninstalled. 
 
 ### Problem Statement 3
 
@@ -175,11 +175,11 @@
 
 ### My chosen problem
 
-**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato delivery-app users want their food to arrive within the promised time, but actual delivery runs 15+ minutes late for 117 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
+**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato users want their food to arrive within the estimated time, but actual delivery runs 15+ minutes late for 117 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
 
 ### Why this one?
 
-According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by two Bangalore-based accounts (Rohan and Vikram). I picked it over Problem 2 (order churn) because it is affecting more total orders, and the ETA that needs to be solved; this also will solve a part of the churn problem. 
+According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by Rohan and Vikram. I picked it over Problem 2 (order churn) because it is affecting more total orders, and the ETA that needs to be solved; this also will solve a part of the churn problem. 
 
 ### JTBD Statement
 
@@ -187,4 +187,4 @@ According to data and interviews, this problem is big because in the data, 117/1
 
 ### User Story Version
 
-"As a working professional who orders dinner during peak evening hours, I want a transparent, reliable delivery time estimate, so that I can plan my evening around the real arrival time."
+"As a working professional who orders dinner during peak evening hours, I want a transparent delivery time estimate, so that I can plan my evening around the real arrival time."
