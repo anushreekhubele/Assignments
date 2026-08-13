@@ -119,17 +119,16 @@
 
 | # | Data Problem (from QuickBites) | Data Signal | Confirming Interview Quotes | Strength |
 |---|---|---|---|---|
-| 1 | Peak-hour (7-9 PM) delivery lateness | Out of 420 orders, 176 were from 7-9 PM. Of those, 117 arrived 15+ minutes late, compared to 29 of 179 off-peak orders. | Rohan: "75 minutes! ...Between 7-9 PM in Bangalore, I'm gambling." / Vikram: "40-50 average, and 60+ during evening rush... especially between 7 and 9 PM." | **MODERATE** (2/6) |
+| 1 | Peak-hour (7-9 PM) delivery lateness | Out of 420 orders, 176 were from 7-9 PM. Of those, 151 arrived late, compared to 29 of 179 off-peak orders. | Rohan: "75 minutes! ...Between 7-9 PM in Bangalore, I'm gambling." / Vikram: "40-50 average, and 60+ during evening rush... especially between 7 and 9 PM." | **MODERATE** (2/6) |
 | 2 | First-order / activation churn | Out of 50 signed-up customers: 4 never even placed 1 order. Of the 4 customers who placed exactly one order, 2 never came back for a second. | Anjali: "I closed the app. Uninstalled the next day... First orders should be sacred." / Vikram: "My cousin... uninstalled within a week." | **MODERATE** (2/6) |
-| 3 | Restaurant delays are unfairly affecting restaurants' ratings | Orders that arrived 15+ minutes late got a 2.67 rating on average. Orders that arrived on time got rated 4.39. Ex: Delhi Delites is the 2nd-slowest restaurant, but has the highest refund count. | Rohan (1/6): "The restaurant gets a bad rating for something that wasn't their fault [i.e., late delivery]." — a general data pattern, not a restaurant-specific claim. | **WEAK** (1/6) |
+| 3 | Restaurant delays are unfairly affecting restaurants' ratings | Out of the 355 successful orders, 106 were delivered within the promised time, resulting in an average rating of 4.68. A delay of just 5 minutes resulted in a 0.58-star drop in the average rating. Orders delayed by 15–20 minutes consistently received ratings below 3.5 stars, while delays of more than 25 minutes resulted in ratings below 2 stars. The same trend of ratings declining as delivery delays increased was observed across all restaurants. | Rohan (1/6): "The restaurant gets a bad rating for something that wasn't their fault [i.e., late delivery]." — a general data pattern, not a restaurant-specific claim. | **WEAK** (1/6) |
 | 4 | UPI payment failure rate | 223/420 orders were paid via UPI, and 45 of those failed — higher than any other payment mode. | None. No interview discusses a failed transaction. | **NOT CONFIRMED** |
 | 5 | Payment Issue support tickets | 10/45 support tickets were Payment Issue tickets. They took 48 hours to resolve — slower than other ticket types — and scored 1.8/5 on customer satisfaction. | Rohan and Anjali both describe poor resolution (₹50 token credit). | **MODERATE** (2/6, though their tickets were about delivery delays, not payment failures specifically) |
 
 ### What interviews revealed that data couldn't
 
-1. According to Rohan, restaurants frequently receive poor ratings due to delivery delays rather than food quality issues. 
-2. Meera reveals the restaurant owners' side of order cancellations — it's a supply problem, not a lack of willingness — but her feedback isn't taken seriously.
-3. Karthik & Rohan's quotes show Zomato added Gold restrictions layer by layer, and both saw their savings drop as a result.
+1. Meera reveals the restaurant owners' side of order cancellations — it's a supply problem, not a lack of willingness — but her feedback isn't taken seriously.
+2. Karthik & Rohan's quotes show Zomato added Gold restrictions layer by layer, and both saw their savings drop as a result.
 
 ---
 
@@ -137,7 +136,7 @@
 
 ### Problem Statement 1
 
-**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato delivery-app users want their food to arrive within the promised time, but actual delivery runs 15+ minutes late for 117 of 176 orders placed in that window** — evidenced by QuickBites order data ( 15+ minutes late for 117 of 176 orders ) AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute ( tracked by them ). This is also a recurring pattern. 
+**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato delivery-app users want their food to arrive within the promised time, but actual delivery runs late for 151 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute ( tracked by them ). This is also a recurring pattern. 
 
 ### Problem Statement 2
 
@@ -145,7 +144,7 @@
 
 ### Problem Statement 3
 
-**When a restaurant's delivery arrives late, restaurant partners want their rating to reflect actual food/service quality, but delivery-caused delays currently drag the restaurant's own rating down with them** — evidenced by QuickBites data showing orders that arrived 15+ minutes late averaged 2.67 stars, compared to 4.39 stars for on-time orders (146 late orders vs. 209 on-time, out of 355 delivered), AND 1/6 interviews (Rohan) said this: his own order was rated poorly specifically because it arrived late, even though he says the food itself was fine.
+**When a restaurant's delivery arrives late, restaurant partners want their rating to reflect actual food/service quality, but delivery-caused delays currently drag the restaurant's own rating down with them** — evidenced by QuickBites data showing orders that arrived Out of the 355 successful orders, 106 were delivered within the promised time, resulting in an average rating of 4.68. A delay of just 5 minutes resulted in a 0.58-star drop in the average rating. Orders delayed by 15–20 minutes consistently received ratings below 3.5 stars, while delays of more than 25 minutes resulted in ratings below 2 stars. The same trend of ratings declining as delivery delays increased was observed across all restaurants, AND 1/6 interviews (Rohan) said this: his own order was rated poorly specifically because it arrived late, even though he says the food itself was fine.
 
 ### Appendix: Additional single-source signals (not counted as formal Problem Statements)
 
@@ -175,11 +174,11 @@
 
 ### My chosen problem
 
-**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato users want their food to arrive within the estimated time, but actual delivery runs 15+ minutes late for 117 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
+**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato users want their food to arrive within the estimated time, but actual delivery runs 15+ minutes late for 151 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
 
 ### Why this one?
 
-According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by Rohan and Vikram. I picked it over Problem 2 (order churn) because it is affecting more total orders, and the ETA that needs to be solved; this also will solve a part of the churn problem. 
+According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by Rohan and Vikram. I picked it over Problem 2 (first-order churn) because it affects more total orders, and fixing the ETA won't just help with churn — it will also improve overall ratings for restaurants.
 
 ### JTBD Statement
 
