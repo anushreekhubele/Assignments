@@ -141,11 +141,11 @@
 
 ### Problem Statement 2
 
-**When a first delivery order goes wrong (late, cold, or mishandled), new customers want a fair shot at trusting the platform, but they receive only a token ₹50 credit (not a refund) and no follow-up outreach** — evidenced by QuickBites data showing that out of 50 signed-up customers, 4 never placed a single order before churning, and of the 4 customers who placed exactly one order, 2 never came back, AND 2/6 interviews (Anjali directly, Vikram via his cousin) describing one bad first delivery as the sole reason they permanently uninstalled.
+**When a first delivery order goes wrong (late, cold, or mishandled), new customers want a reasonable shot at trusting the platform, but they receive only a token ₹50 credit (not a refund) and no follow-up outreach** — evidenced by QuickBites data showing that out of 50 signed-up customers, 4 never placed a single order before churning, and of the 4 customers who placed exactly one order, 2 never came back, AND 2/6 interviews (Anjali directly, Vikram via his cousin) describing one bad first delivery as the sole reason they permanently uninstalled.
 
 ### Problem Statement 3
 
-**When a restaurant's delivery arrives late, restaurant partners want their rating to reflect actual food/service quality, but delivery-caused delays currently drag the restaurant's own rating down with them** — evidenced by QuickBites data showing orders that arrived 15+ minutes late averaged 2.67 stars, compared to 4.39 stars for on-time orders (146 late orders vs. 209 on-time, out of 355 delivered), AND 1/6 interviews (Rohan) giving a firsthand account of exactly this: his own order was rated poorly specifically because it arrived late, even though he says the food itself was fine.
+**When a restaurant's delivery arrives late, restaurant partners want their rating to reflect actual food/service quality, but delivery-caused delays currently drag the restaurant's own rating down with them** — evidenced by QuickBites data showing orders that arrived 15+ minutes late averaged 2.67 stars, compared to 4.39 stars for on-time orders (146 late orders vs. 209 on-time, out of 355 delivered), AND 1/6 interviews (Rohan) said this: his own order was rated poorly specifically because it arrived late, even though he says the food itself was fine.
 
 ### Appendix: Additional single-source signals (not counted as formal Problem Statements)
 
@@ -179,7 +179,7 @@
 
 ### Why this one?
 
-According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by two independent Bangalore-based accounts (Rohan and Vikram). I picked it over Problem 2 (order churn) because it is affecting more total orders, and it's just the ETA that needs to be solved — part of the churn problem will also get solved as a result.
+According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by two Bangalore-based accounts (Rohan and Vikram). I picked it over Problem 2 (order churn) because it is affecting more total orders, and the ETA that needs to be solved; this also will solve a part of the churn problem. 
 
 ### JTBD Statement
 
@@ -188,7 +188,3 @@ According to data and interviews, this problem is big because in the data, 117/1
 ### User Story Version
 
 "As a working professional who orders dinner during peak evening hours, I want a transparent, reliable delivery time estimate, so that I can plan my evening around the real arrival time."
-
-### Notes on JTBD vs User Story
-
-The JTBD version anchors on the situational trigger (7-9 PM, hungry, deciding which app to open) — which is exactly the moment Rohan describes changing his own behaviour in ("I've literally stopped opening Zomato before 9 PM"). The User Story version is accurate but more generic — it could describe almost any delivery-time complaint, whereas the JTBD version captures the specific decision point worth designing for.
