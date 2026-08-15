@@ -174,7 +174,7 @@
 
 ### My chosen problem
 
-**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato users want their food to arrive within the estimated time, but actual delivery runs 15+ minutes late for 151 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
+**When ordering dinner between 7-9 PM in cities like Bangalore, Zomato users want their food to arrive within the estimated time, but actual delivery runs late for 151 of 176 orders placed in that window** — evidenced by QuickBites order data AND 2/6 interviews (Rohan, Vikram) independently describing 60-75 minute peak-hour deliveries against 30-35 minute promises as a tracked, recurring pattern, not a one-off.
 
 ### Why this one?
 
