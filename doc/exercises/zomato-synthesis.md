@@ -178,7 +178,7 @@
 
 ### Why this one?
 
-According to data and interviews, this problem is big because in the data, 117/176 orders are delayed, and it shows a rating drop. This problem is also confirmed by Rohan and Vikram. I picked it over Problem 2 (first-order churn) because it affects more total orders, and fixing the ETA won't just help with churn — it will also improve overall ratings for restaurants.
+I prioritized the 7-9 PM peak-hour lateness problem because it has the biggest reach — roughly half of all orders (176 of 355) fall in this window, compared to just a handful of customers affected by first-order churn. It also has the clearest measurable harm, a full-star rating drop (4.2 to 3.1), and is confirmed by two independent interviews (Rohan and Vikram) describing the same pattern without prompting each other. Beyond that, fixing this one problem has knock-on effects on the other two candidates — the same lateness is also what's dragging down restaurant ratings and likely contributing to some of the first-order churn — so solving it doesn't just fix one issue, it partially addresses three.
 
 ### JTBD Statement
 
